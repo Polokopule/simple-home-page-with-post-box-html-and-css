@@ -1,0 +1,217 @@
+<html>
+    <title>marketing apk</title>
+    <style>
+#list{
+    display: none;
+}
+.nav{
+    background:white;
+    width: 100%;
+    height:40px;
+    display:flex;
+    box-shadow: 1px 2px 3px 2px #f1f1f1;
+    position: absolute;
+    left:0;
+    top:0px;
+}
+.bars{
+    width: 100%;
+    height:40px;
+    display:flex;
+}
+.open{
+    margin-top:10px;
+    background:#fff;
+    border: none;
+    font-weight: bolder;
+}
+.name{
+    display:flex;
+    height: auto;
+    font-size: 3vh;
+    margin-top:13px;
+    background:#fff;
+    border: none;
+    margin-left:200px;
+    font-weight: bolder;
+}
+.red{
+    color:red;
+}
+.profile{
+    background-color: black;
+    height:30px;
+    border-radius: 100%;
+    width:30px;
+    margin-top:6px;
+    border:none;
+    margin-left:150px;
+    float:right;
+}
+.box{
+    margin-top: 60px;
+    height: 300px;
+    width:300px;
+    
+    box-shadow: 3px 3px 3px 3px #e2e2e2,
+    3px -3px 3px 3px #e2e2e2,
+    -3px 3px 3px 3px #e2e2e2;
+
+}
+.row{
+    width:300px;
+    height:auto;
+    position: absolute;
+
+    background-color:#e2e2e2;
+}
+.user{
+    background-color: black;
+    height:30px;
+    border-radius: 100%;
+    width:30px;
+    margin-left: 20px;
+    margin-top:6px;
+    border:none;
+   
+}
+.user-nm{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    margin-left: 10px;
+    top: 10px;
+}
+
+.time{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10px;
+    position: absolute;
+    margin-left: 200px;
+    top: 10px;
+}
+.post{
+    width: 300px;
+    height: 270px;
+    background:#fff;
+    border-bottom:1px solid #f1f1f1;
+    margin-top: 10px;
+   
+}
+.row2{
+    display:flex;
+    height:30px;
+    width: 300px;
+
+}
+.massage{
+    width: 230px;
+}
+.buy{
+    width: 50px;
+    float:right;
+    height:30px;
+    margin-left: 10px;
+}
+.all{
+    background:#f1f1f1;
+    height: 150px;
+    width:200px;
+    visibility: hidden;
+    position:fixed;
+    top:150px;
+left:300px;
+
+box-shadow: 3px 3px 3px 3px #e2e2e2,
+    3px -3px 3px 3px #e2e2e2,
+    -3px 3px 3px 3px #e2e2e2;
+transition:300s;
+    bottom: 160px;
+}
+.drop:hover .all{
+    visibility: visible;
+}
+.title{
+    background-color: #fff;
+    border:none;
+    height: 30px;
+    width: 130px;
+
+}
+
+.price{
+    background-color: #fff;
+    border:none;
+    height: 30px;
+    width: 50px;
+
+}
+.det:hover .al-det{
+    visibility: visible;
+    background:#f1f1f1;
+    height: 300px;
+    width: 200px;
+    float: right;
+    position: absolute;
+    right:0;
+   margin-top: 30px;
+
+}
+.al-det{
+    visibility: hidden;
+}
+.view{
+    width: 70px;
+    height: 70px;
+    background-color: #000;
+    border-radius: 100%;
+}
+    </style>
+</html>
+<body>
+    <div class="nav">
+        <div class="bars">
+            <button class="open" onclick="open()">MENU</button> 
+            <button class="name">EA<b class="red">SY</b></button>
+           <div class="det">
+            <button class="profile"></button>
+            <div class="al-det">
+                <center><button class="view"></button></center><br>
+                <br><button class="title"></button>
+                <button class="price"></button><br>
+               
+               </button>
+            </div>
+           </div>
+        </div>
+        <div class="list" id="list">
+            <h1>list</h1>
+        </div>
+    </div>
+    <div class="box">
+        <div class="row">
+            <button class="user"></button>
+            <button class="user-nm">poloko pule</button>
+            <button class="time">1hr</button>
+        </div>
+        <div class="post"><center><h1>no post avalible</h1></center></div>
+        <div class="row2"><button class="massage">MASSAGE</button>
+
+            <div class="drop">
+            <button class="buy">Buy</button>
+            <div class="all"><button class="title"></button>
+                <button class="price"></button><br><button class="title"></button>
+                <button class="price"></button><br><button class="title"></button>
+                <button class="price"></button><br><button class="title"></button>
+                <button class="price"></button>
+            
+            </div>
+</div>        </div>
+    </div>
+    
+    <script>
+       
+       
+    </script>
+</body>
